@@ -1,0 +1,8 @@
+[package]
+name = "crosstransfer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dir_zipper = { version = "0.1.0", path = "../dir_zipper" }
+user_info = { version = "0.1.0", path = "../user_info" }
