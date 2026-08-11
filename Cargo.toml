@@ -1,3 +1,6 @@
 [workspace]
 resolver = "3"
 members = ["crosstransfer", "dir_zipper", "user_info"]
+
+[workspace.dependencies]
+log = "0.4.33"
